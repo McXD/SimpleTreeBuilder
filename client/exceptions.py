@@ -1,0 +1,2 @@
+class MalformedCommandException(Exception):
+    pass

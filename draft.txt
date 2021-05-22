@@ -1,0 +1,17 @@
+Backend + CLI
+
+Expected Functionality:
+    - create nodes
+    - create edges
+    - different shapes for different levels
+
+Desired Workflow:
+
+$: create parent_node "Hello World"
+$: create left_node_1 "Hello" parent_node "first_word"
+$: create right_node_1 "World" parent_node "second_word"
+$: create comment_node "A Common Phrase" parent_node "floating" floating
+$: view # linux `tree` like
+$: export png
+
+
